@@ -157,6 +157,19 @@ header .menu .active-btn i{
   border-radius: 10px;
 }
 
+.icons{
+  height: 43px;
+  margin-top: 3vh;
+}
+
+.icons img{
+  height: 100%;
+}
+.icons img:hover{
+  filter: invert(75%) sepia(73%) saturate(514%) hue-rotate(355deg) brightness(84%) contrast(98%);
+
+}
+
 @media only screen and (max-width: 600px) {
   .toggle-button{
     display: flex;
