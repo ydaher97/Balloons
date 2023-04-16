@@ -57,3 +57,8 @@ for (let i = 0; i < menuItems.length; i++) {
         nav.classList.remove('active');
     });
 }
+for (let i = 0; i < sectBtn.length; i++) {
+    sectBtn[i].addEventListener('click', () => {
+        nav.classList.remove('active');
+    });
+}
